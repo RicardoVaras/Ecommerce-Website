@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RVR | Ecommerce Website Desing</title>
+  <link rel="stylesheet" href="../content/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+</head>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../content/img/LOGO - Black.png" width="125px">
+        </a>
+      </div>
+      <nav>
+        <ul id="menuItems">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="product.html">Productos</a></li>
+          <li><a href="">Nosotros</a></li>
+          <li><a href="">Contactanos</a></li>
+          <li><a href="account.html">Cuenta</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html">
+        <img src="../content/img/cart.png" width="30px" height="30px">
+      </a>
+      <img src="../content/img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  </div>
+
+  <!----------------------------Detalle de un producto------------------------------------->
+
+  <div class="small-container single-product">
+    <div class="row">
+      <div class="col-2">
+        <img src="../content/img/gallery-1.jpg" width="100%" id="ProductImg">
+        <div class="small-img-row">
+          <div class="small-img-col">
+            <img src="../content/img/gallery-1.jpg" width="100%" class="SmallImg">
+          </div>
+          <div class="small-img-col">
+            <img src="../content/img/gallery-2.jpg" width="100%" class="SmallImg">
+          </div>
+          <div class="small-img-col">
+            <img src="../content/img/gallery-3.jpg" width="100%" class="SmallImg">
+          </div>
+          <div class="small-img-col">
+            <img src="../content/img/gallery-4.jpg" width="100%" class="SmallImg">
+          </div>
+        </div>
+      </div>
+      <div class="col-2 details">
+        <p>Home / Polo</p>
+        <h1>Polo Rojo con Estampado</h1>
+        <h4>$50.00</h4>
+        <select>
+          <option>Selecionar Tamaño</option>
+          <option>XXL</option>
+          <option>XL</option>
+          <option>L</option>
+          <option>M</option>
+          <option>S</option>
+        </select>
+        <input type="number" value="1">
+        <a href="cart.html" class="btn">Añadir al Carrito</a>
+        <h3>Detalle del Producto <i class="fa fa-indent"></i></h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ipsam aliquid nemo consequatur, dolores ducimus debitis consequuntur deserunt. 
+          Ea ex, id dolore reiciendis quas illum recusandae doloremque animi officiis omnis.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-----------------------------TITULO------------------------------------>
+
+  <div class="small-container">
+    <div class="row row-2">
+      <h2>Productos Relacionados</h2>
+      <p>Ver más</p>
+    </div>
+  </div>
+
+  <!-----------------------------Productos relacionados------------------------------------>
+
+  <div class="small-container">
+    <div class="row">
+      <div class="col-4">
+        <img src="../content/img/product-9.jpg">
+        <h4>Polo Rojo Estampado</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="../content/img/product-10.jpg">
+        <h4>Polo Rojo Estampado</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="../content/img/product-11.jpg">
+        <h4>Polo Rojo Estampado</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="../content/img/product-12.jpg">
+        <h4>Polo Rojo Estampado</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------- Footer ---------------------------------------->
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Descarga Nuestra Aplicación</h3>
+          <p>Descarga la Aplicación para Android y IOS.</p>
+          <div class="app-logo">
+            <img src="../content/img/play-store.png"> 
+            <img src="../content/img/app-store.png">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="../content/img/LOGO - White.png">
+          <p>Nuestro propósito es hacer de manera sostenible el placer
+            y beneficios de los deportes accesibles para muchos</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Síguenos</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2020 - R.V.R</p>
+    </div>
+  </div>
+  <script src="../content/js/nav.js"></script>
+</body>
+</html>

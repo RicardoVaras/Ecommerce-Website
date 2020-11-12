@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RVR | Ecommerce Website Desing</title>
+  <link rel="stylesheet" href="../content/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+  </head>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../content/img/LOGO - Black.png" width="125px">
+        </a>
+      </div>
+      <nav>
+        <ul id="menuItems">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="product.html">Productos</a></li>
+          <li><a href="">Nosotros</a></li>
+          <li><a href="">Contactanos</a></li>
+          <li><a href="account.html">Cuenta</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html">
+        <img src="../content/img/cart.png" width="30px" height="30px">
+      </a>
+      <img src="../content/img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  </div>
+
+  <!------------------------Details cart------------------------------------>
+
+  <div class="small-container cart-page">
+    <table>
+      <tr>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>SubTotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="../content/img/buy-1.jpg">
+            <div>
+              <p>Polo Rojo Estampado</p>
+              <small>Precio: $50.00</small>
+              <br>
+              <a href="">Eliminar</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$50.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="../content/img/buy-2.jpg">
+            <div>
+              <p>Polo Rojo Estampado</p>
+              <small>Precio: $100.00</small>
+              <br>
+              <a href="">Eliminar</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$100.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="../content/img/buy-3.jpg">
+            <div>
+              <p>Polo Rojo Estampado</p>
+              <small>Precio: $75.00</small>
+              <br>
+              <a href="">Eliminar</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$75.00</td>
+      </tr>
+    </table>
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>$20.00</td>
+        </tr>
+        <tr>
+          <td>Envío</td>
+          <td>$10.00</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>$255.00</td>
+        </tr>
+      </table>
+      <br>
+    </div>
+    <div class="col-2">
+      <a href="cuenta.html" class="btn btn-cart">Comprar</a>
+    </div>
+  </div>
+
+  <!------------------------- Footer ---------------------------------------->
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Descarga Nuestra Aplicación</h3>
+          <p>Descarga la Aplicación para Android y IOS.</p>
+          <div class="app-logo">
+            <img src="../content/img/play-store.png"> 
+            <img src="../content/img/app-store.png">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="../content/img/LOGO - White.png">
+          <p>Nuestro propósito es hacer de manera sostenible el placer
+            y beneficios de los deportes accesibles para muchos</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Síguenos</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2020 - R.V.R</p>
+    </div>
+  </div>
+  <script src="/content/js/nav.js"></script>
+</body>
+</html>
